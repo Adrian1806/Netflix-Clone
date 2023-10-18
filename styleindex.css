@@ -1,0 +1,75 @@
+body{
+    margin:0;
+    background-color: black;
+}
+main{position: fixed;
+    right:0;
+    left:0;
+    bottom:0;
+    top:0;
+    display: flex;
+
+    flex-direction: column;
+    align-items: center;
+    gap: 3rem;
+    justify-content: center;
+}
+#titleChoice{
+    color: #fff;
+    font-size: 2vw;
+
+   
+}
+#titleChoice h1{
+ margin: 0;
+}
+ ul{
+    list-style-type: none;
+
+}
+.profileLi{
+    
+    width: 100px;
+    height: 100px;
+    float: left;
+    margin-right:1rem;
+    border-radius: 0.5rem;
+    border: 2px black solid;
+    
+}
+.profileLi:hover{
+    border: 2px white solid;
+}
+
+#profilChoice{
+    display: flex;
+    gap: 2rem;
+}
+.profileImg{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    
+}
+.profileImg img{
+    border-radius: 0.5rem;
+}
+.profileName{
+    margin-top: 0.5rem;
+    display: flex;
+    justify-content: center;
+    color:gray;
+}
+#choiceButton button{
+    border: none;
+    padding: 0.5rem;
+    color:gray;
+    background-color: black;
+    border:1px gray solid;
+
+}
+#choiceButton:hover button{
+    border: 1px white solid;
+    color:white;
+    font-weight: 100;
+}
